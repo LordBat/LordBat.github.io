@@ -1,0 +1,122 @@
+
+/* Colores */
+/*
+Color A: #75EEF8
+Color B: #66D9C2
+Color C: #7CF0B7
+Color D: #66D981
+Color F: #7DF875
+*/
+
+html {
+    font-family: 'Noto Serif Display', serif;
+    /* font-family: 'Roboto', sans-serif; */
+    background-color: black;
+    color: white;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background: rgb(102,217,194);
+    background: linear-gradient(315deg, rgba(102,217,194,0.4) 0%, rgba(124,240,183,0.5) 35%, rgba(117,238,248,0.6) 100%);
+    font-family: 'Noto Serif Display', serif;
+    color: #fff;
+    font-size: xx-small;
+    cursor: pointer;
+}
+
+
+body {
+    width: 75%;
+    margin: 0 auto; 
+}
+
+/* =============   HEADER   ============== */
+
+section.section_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 450px;
+    background-image: url("../src/img/bg1-1920.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+section.section_header > header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    flex: 1;
+    margin: 20px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.span_logo {
+    color: #66D981;    
+}
+/* =============   HEADER - NAV   ============== */
+
+nav.nav { 
+    margin: 0 auto;
+}
+
+nav.nav > ul {
+    display: flex;
+}
+
+nav.nav > ul li {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+/* header > div:nth-last-child(1) {
+    visibility: hidden;
+} */
+
+/* Links */
+a {
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+a:hover {
+    /* font-weight: bold; */
+    text-decoration: underline;
+    color: #75EEF8;
+}
+
+/* =============   HEADER - MAIN   ============== */
+
+section.section_header main {
+    display: flex;
+    flex: 4;
+    margin: 20px;
+
+}
+
+section.section_header main div {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    width: 50%;
+}
+
+div.txt_section_header p {
+    font-size: 0.9 em;
+    margin: 5vh 0;
+}
+/* div.txt_section_header button {
+    align-self: flex-end;
+} */
+
+
+
+
